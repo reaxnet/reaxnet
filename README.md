@@ -41,15 +41,15 @@ We provide a pretrained model, which can be used to fine-tune on your own datase
 ## Code test environment
 ### Python Dependencies
 - Python 3.9
-- JAX 0.4.20
-- JAX-MD 0.2.8
-- NumPy 1.23.4
-- ASE 3.23.0
-- e3nn_jax 0.20.7
-- flax 0.10.0
-- jraph 0.0.6
-- matscipy 1.0.0
-- optax 0.1.8
+- [JAX](https://github.com/jax-ml/jax) 0.4.20
+- [JAX-MD](https://github.com/jax-md/jax-md) 0.2.8
+- [NumPy](https://numpy.org/) 1.23.4
+- [ASE](https://gitlab.com/ase/ase) 3.23.0
+- [e3nn_jax](https://github.com/e3nn/e3nn-jax) 0.20.7
+- [flax](https://github.com/google/flax) 0.10.0
+- [jraph](https://github.com/google-deepmind/jraph) 0.0.6
+- [optax](https://github.com/google-deepmind/optax) 0.1.8
+- [matscipy](https://github.com/libAtoms/matscipy) 1.0.0
 
 ### OS 
 This package is supported for macOS and Linux. The code has tested on:
