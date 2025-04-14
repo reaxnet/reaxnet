@@ -2,3 +2,4 @@ pretrained
 build
 *.egg-info
 .DS_Store
+logo.html

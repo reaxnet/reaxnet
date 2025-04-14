@@ -3,6 +3,8 @@
 ![vistors](https://visitor-badge.laobi.icu/badge?page_id=reaxnet.reaxnet&right_color=green) 
 <a href='https://arxiv.org/abs/2410.13820'><img src='https://img.shields.io/badge/arXiv-2403.13820-blue'></a>
 
+![logo](site/logo.gif)
+
 ![framework](site/framework.png)
 
 The JAX implementation of polarizable long-rang interactions integrated equivariant neural network potentials (ReaxNet).
