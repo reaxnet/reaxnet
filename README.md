@@ -4,7 +4,7 @@
 <a href='https://arxiv.org/abs/2410.13820'><img src='https://img.shields.io/badge/arXiv-2403.13820-blue'></a>
 
 <p align="center">
-<img src="./site/logo.gif" width="200">
+<img src="./site/logo.gif" width="300">
 </p>
 
 **ReaxNet** package is the JAX implementation of polarizable long-rang interactions integrated equivariant neural network potential.
