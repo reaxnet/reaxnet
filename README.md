@@ -9,6 +9,7 @@ The JAX implementation of polarizable long-rang interactions integrated equivari
 ## Installation
 
 ### Easy install
+
 ```bash
 pip install git+https://github.com/reaxnet/reaxnet.git
 ```
@@ -23,10 +24,19 @@ pip install git+https://github.com/reaxnet/reaxnet.git
 ```
 
 ## Usage
-Please refer to [examples](./examples/). It details how to use the ReaxNet.
 
-## Fine-tuning the pretrained model
+### Basic usage
+The basic usage of ReaxNet is demonstrated in the [basic.ipynb](./examples/basic.ipynb) notebook. Please note that you should carefully read the [jax-md](https://github.com/jax-md/jax-md) codes when using the neighbor list.
+
+### Fine-tuning the pretrained model
 We provide a pretrained model, which can be used to fine-tune on your own dataset. The detailed fine-tuning process can be found in the [fine_tuning.ipynb](./examples/fine_tuning.ipynb).
+
+### Example notebooks:
+| Notebooks | Descriptions |
+| -------- | ----------- |
+| [basic.ipynb](./examples/basic.ipynb) | Examples for prediction of energy and forces for atomic structure. |
+| [non_bond.ipynb](./examples/non_bond.ipynb) | Examples for calculation of polarizable long-range interactions. |
+| [fine_tuning.ipynb](./examples/fine_tuning.ipynb) | Examples for fine-tuning the pretrained model. |
 
 ## Code test environment
 ### Python Dependencies
