@@ -23,10 +23,10 @@ pip install git+https://github.com/reaxnet/reaxnet.git
 ```
 
 ## Usage
-Please refer to [example](./example/).
+Please refer to [examples](./examples/). It details how to use the ReaxNet.
 
 ## Fine-tuning the pretrained model
-We provide a pretrained model, which can be used to fine-tune on your own dataset. The fine-tuning process can be found in the [fine_tuning.ipynb](./example/fine_tuning.ipynb).
+We provide a pretrained model, which can be used to fine-tune on your own dataset. The detailed fine-tuning process can be found in the [fine_tuning.ipynb](./examples/fine_tuning.ipynb).
 
 ## Code test environment
 ### Python Dependencies
