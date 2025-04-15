@@ -7,7 +7,7 @@
 <img src="./site/logo.gif" width="300">
 </p>
 
-**ReaxNet** package is the JAX implementation of polarizable long-rang interactions integrated equivariant neural network potential.
+**ReaxNet** package is a JAX implementation of polarizable long-rang interactions integrated equivariant neural network potential.
 
 ## Framework overview
 ![framework](site/framework.png)
@@ -32,7 +32,7 @@ pip install git+https://github.com/reaxnet/reaxnet.git
 ## Usage
 
 ### Basic usage
-The basic usage of ReaxNet is demonstrated in the [basic.ipynb](./examples/basic.ipynb) notebook. Please note that you should carefully read the [jax-md](https://github.com/jax-md/jax-md) codes when using the neighbor list.
+The basic usage of **ReaxNet** is demonstrated in the [basic.ipynb](./examples/basic.ipynb) notebook. Please note that you should carefully read the [jax-md](https://github.com/jax-md/jax-md) codes when using the neighbor list.
 
 ### Fine-tuning the pretrained model
 We provide a pretrained model, which can be used to fine-tune on your own dataset. The detailed fine-tuning process can be found in the [fine_tuning.ipynb](./examples/fine_tuning.ipynb).
@@ -58,7 +58,7 @@ We provide a pretrained model, which can be used to fine-tune on your own datase
 - [matscipy](https://github.com/libAtoms/matscipy) 1.0.0
 
 ### OS 
-This package is supported for macOS and Linux. The code has tested on:
+The code has tested on:
 - Ubuntu 22.04.4 LTS
 - MacOS 14.7
 
@@ -66,7 +66,7 @@ This package is supported for macOS and Linux. The code has tested on:
 
 If you use this repository, please cite the following [preprint](https://doi.org/10.48550/arXiv.2410.13820):
 ```bib
-@article{gao2024enhancing,
+@article{reaxnet,
   title={Enhancing universal machine learning potentials with polarizable long-range interactions},
   author={Gao, Rongzhi and Yam, ChiYung and Mao, Jianjun and Chen, Shuguang and Chen, GuanHua and Hu, Ziyang},
   journal={arXiv preprint arXiv:2410.13820},
