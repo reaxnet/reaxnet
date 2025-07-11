@@ -125,7 +125,7 @@ def load_from_atomic_list(
     atoms_list: List[Atoms],
     cutoff: float = 5.0,
     config_type_weights: Dict = None,
-) -> Tuple[Configurations, set[int], Dict[str, float]]: 
+): 
     configs, num_nodes, num_edges, energy = [], [], [], []
     for atoms in tqdm(atoms_list, desc="Loading configs from trajectory"):
         config = config_from_atoms(atoms, cutoff, config_type_weights)
@@ -133,7 +133,7 @@ def load_from_atomic_list(
         num_nodes.append(len(atoms))
         num_edges.append(config.senders.shape[0])
         energy.append(config.energy)
-    return configs
+    return configs, np.mean(num_nodes), np.mean(num_edges)
 
 GraphNodes = namedtuple("Nodes", ["positions", "forces", "species"])
 GraphEdges = namedtuple("Edges", ["shifts"])
