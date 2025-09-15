@@ -1,7 +1,7 @@
 <h1>ReaxNet</h1>
 
 ![vistors](https://visitor-badge.laobi.icu/badge?page_id=reaxnet.reaxnet&right_color=green) 
-<a href='https://arxiv.org/abs/2410.13820'><img src='https://img.shields.io/badge/arXiv-2403.13820-blue'></a>
+<a href='https://arxiv.org/abs/2410.13820'><img src='https://img.shields.io/badge/arXiv-2410.13820-blue'></a>
 
 <p align="center">
 <img src="./site/logo.gif" width="300">
