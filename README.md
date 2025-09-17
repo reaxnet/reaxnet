@@ -64,10 +64,10 @@ The code has tested on:
 
 ## Reference
 
-If you use this repository, please cite the following [preprint](https://doi.org/10.48550/arXiv.2410.13820):
+If you use this repository, please cite the following [preprint](https://arxiv.org/abs/2410.13820):
 ```bib
 @article{reaxnet,
-  title={Enhancing universal machine learning potentials with polarizable long-range interactions},
+  title={A foundation machine learning potential with polarizable long-range interactions for materials modelling},
   author={Gao, Rongzhi and Yam, ChiYung and Mao, Jianjun and Chen, Shuguang and Chen, GuanHua and Hu, Ziyang},
   journal={arXiv preprint arXiv:2410.13820},
   year={2024}
