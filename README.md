@@ -64,12 +64,14 @@ The code has tested on:
 
 ## Reference
 
-If you use this repository, please cite the following [preprint](https://arxiv.org/abs/2410.13820):
+If you use this repository, please cite the following [paper](https://www.nature.com/articles/s41467-025-65496-3):
 ```bib
 @article{reaxnet,
   title={A foundation machine learning potential with polarizable long-range interactions for materials modelling},
   author={Gao, Rongzhi and Yam, ChiYung and Mao, Jianjun and Chen, Shuguang and Chen, GuanHua and Hu, Ziyang},
-  journal={arXiv preprint arXiv:2410.13820},
-  year={2024}
+  journal={Nature Communications},
+  volume={16},
+  number={10484},
+  year={2025},
 }
 ```
