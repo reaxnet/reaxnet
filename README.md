@@ -71,7 +71,7 @@ If you use this repository, please cite the following [paper](https://www.nature
   author={Gao, Rongzhi and Yam, ChiYung and Mao, Jianjun and Chen, Shuguang and Chen, GuanHua and Hu, Ziyang},
   journal={Nature Communications},
   volume={16},
-  number={10484},
+  pages={10484},
   year={2025},
 }
 ```
