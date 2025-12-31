@@ -117,7 +117,10 @@ def compute_shell(dRcc: Array,
     sforce = sforce.at[iidx].add( -vmap_sforce_dcoulobmkcal(dRss, alpha[iidx, jidx], cutoff) * qs[iidx][:, None] * qs[jidx][:, None] )
     sforce = sforce.at[iidx].add( -vmap_sforce_dcoulobmkcal(dRsc, alpha[iidx, jidx], cutoff) * qs[iidx][:, None] * qc[jidx][:, None] )
     rs_new = sforce / Ks[:, None]
-    return rs_new
+    rs_norm = jnp.linalg.norm(rs_new, axis=1, keepdims=True)
+    multiplier = jnp.where(rs_norm > 0.25, 0.25 / rs_norm, 1.0)
+    rs = rs_new * multiplier
+    return rs
 
 
 def build_b_vector(dRcc: Array,
